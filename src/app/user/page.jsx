@@ -11,7 +11,7 @@ const RegisteredUsersDropdown = ({ registeredUsers }) => {
         <select id="registered-users" className="mt-1 block w-full border rounded-md">
           {registeredUsers.map(userId => (
             <option key={userId} value={userId}>
-              {userId} {/* Replace with a function to fetch user details if needed */}
+              {userId} 
             </option>
           ))}
         </select>
